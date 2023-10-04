@@ -1,0 +1,45 @@
+/* Style général du formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style des champs de texte et d'email */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style du bouton Envoyer */
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+

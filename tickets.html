@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faire une demande</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="" class="logo" />
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="#">Espace MyCloud</a></li>
+
+            </ul>
+            <!-- <img src="images/cart.png" alt="" class="cart" /> -->
+        </nav>
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulaire</title>
+            <link rel="stylesheet" type="text/css" href="ticketstyle.css">
+        </head>
+        <body>
+            <center>
+            <div class="container">
+                <h1>Formulaire</h1>
+                <br>
+                <form action="#" method="post">
+                    <fieldset>
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="option">Sélectionnez une option :</label>
+                        <select id="option" name="option" required>
+                            <option value="Route">Route</option>
+                            <option value="Ascenseurs">Ascenseurs</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="text">Si autre précisez:</label>
+                        <input type="text" id="precisez" name="precisez">
+                    </div>
+
+                    </fieldset>
+                    <br>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+            </div>
+            </center>
+        </body>
+          
+    </div>
+    
+</body>
+</html>
